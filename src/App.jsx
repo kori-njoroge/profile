@@ -56,7 +56,7 @@ export default function App() {
         <div class="gitprofile">
           <a
             data-testid="githubURL"
-            href="https://github.com/kori-njoroge"
+            href="https://github.com/kori-njoroge/profile"
             target="_blank"
           >
             Github URL
