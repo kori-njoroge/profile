@@ -1,4 +1,4 @@
-.app{
+.app {
   width: 70vh;
   height: 40vh;
   display: flex;
@@ -11,11 +11,37 @@
   border-radius: 10px;
 }
 
-.section2{
+.section2 {
   padding: 2vh;
   font-size: 1.2rem;
 }
-.profile-pic{
+
+.profile-pic {
   height: 25vh;
   border-radius: 15px;
+}
+
+.git-logo {
+  height: 5vh;
+  float: center;
+}
+
+.collapse {
+  display: inline-block;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+
+@media (max-width: 400px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    width: 80vw;
+    margin-top:10vh;
+    gap: 3vh;
+  }
 }
